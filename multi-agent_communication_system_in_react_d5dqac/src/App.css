@@ -1,0 +1,130 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.sidebar li.selected {
+  background-color: #ddd;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.messages-container,
+.tasks-container,
+.projects-container,
+.human-agent-interaction-container {
+  margin-bottom: 20px;
+}
+
+.messages {
+  border: 1px solid #ccc;
+  padding: 10px;
+  min-height: 100px;
+}
+
+.message {
+  margin-bottom: 5px;
+}
+
+.message-sender {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.message-timestamp {
+  font-size: 0.8em;
+  color: #888;
+  margin-left: 10px;
+}
+
+.message-input {
+  margin-top: 10px;
+}
+
+.message-input input {
+  width: 70%;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.tasks {
+  border: 1px solid #ccc;
+  padding: 10px;
+  min-height: 100px;
+}
+
+.task {
+  margin-bottom: 5px;
+}
+
+.task-input {
+  margin-top: 10px;
+}
+
+.task-input input {
+  width: 50%;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.task-input select {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.projects {
+  border: 1px solid #ccc;
+  padding: 10px;
+  min-height: 100px;
+}
+
+.project {
+  margin-bottom: 5px;
+}
+
+.project-input {
+  margin-top: 10px;
+}
+
+.project-input input {
+  width: 50%;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.human-agent-interaction-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.agent-instruction {
+  margin-bottom: 10px;
+}
+
+.agent-instruction textarea {
+  width: 100%;
+  padding: 8px;
+}
